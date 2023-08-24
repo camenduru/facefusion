@@ -25,7 +25,7 @@ def launch() -> None:
 			ui_layout_module.pre_check()
 			ui_layout_module.render()
 			ui_layout_module.listen()
-	ui.launch(show_api = False)
+	ui.launch(show_api = False, share = True)
 
 
 def load_ui_layout_module(ui_layout : str) -> Any:
